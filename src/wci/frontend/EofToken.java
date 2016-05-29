@@ -1,7 +1,11 @@
 package wci.frontend;
 
-/**
- * Created by croese on 5/28/16.
- */
-public class EofToken {
+public class EofToken extends Token {
+  public EofToken(Source source) throws Exception {
+    super(source);
+  }
+
+  protected void extract(Source source) throws Exception {
+
+  }
 }

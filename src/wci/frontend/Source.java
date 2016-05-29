@@ -67,4 +67,12 @@ public class Source {
       }
     }
   }
+
+  public int getLineNum() {
+    return lineNum;
+  }
+
+  public int getPosition() {
+    return currentPos;
+  }
 }
